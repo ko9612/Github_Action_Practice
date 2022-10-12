@@ -34,6 +34,6 @@ jobs:
         run: |
           aws s3 sync \
             --region ap-northeast-2 \
-            build s3://Github_Action_Practice \
+            build s3://fe-6-ko9612 \
             --delete
         working-directory: ./my-agora-states-client
